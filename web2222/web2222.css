@@ -1,0 +1,89 @@
+.title{
+font:bolder;
+color: aliceblue;
+text-align: center;
+padding-top: 30px;
+font-size: larger;
+}
+
+
+.background{
+background-size: cover;
+position: absolute;
+}
+
+
+
+
+
+
+
+.picture1{
+    width: 300px;
+    height: 220px;
+    margin-left:30% ;
+    box-sizing: border-box;
+}
+
+
+
+.pictures{
+    width: 148px;
+    height: 150px;
+    margin-left: 30%;
+    box-sizing: border-box;
+    
+    
+}
+.pictures1{
+    width: 148px;
+    height: 150px;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+.rgtpicture{
+    width: 148px;
+    height: 150px; 
+    margin-left: 52%;
+    box-sizing: border-box;
+   
+   
+
+}
+.rgtpicture1{
+    width: 148px;
+    height: 150px;
+    box-sizing: border-box;
+   
+
+}
+
+
+.bigrgtpicture{
+    width: 300px;
+    height: 250px;
+    margin-left: 52%;
+    display: flex;
+ 
+}
+
+
+
+.samllpicture{
+
+    margin-top: 30%;
+
+
+
+}
+.picturesall{
+    
+    display: inline;
+
+
+
+}
