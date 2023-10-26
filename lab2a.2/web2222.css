@@ -58,6 +58,9 @@ position: absolute;
     width: 148px;
     height: 150px;
     box-sizing: border-box;
+    position: relative;
+    position: absolute;
+    margin-bottom:  100px;
    
 
 }

@@ -338,6 +338,49 @@
    }
 
 
+.container7{
+    height: 400px;
+    width: 100%;
+    background-color: palevioletred;
+    z-index: -1;
+}
+
+.bigtext7{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+
+
+.lowtext7{
+    margin-left: 10%;
+    padding-top: 2%;
+
+}
+
+.name{
+    margin-left: 10%;
+    padding-top: 2%;
+
+}
+
+
+.selection{
+    display: flex;
+}
+
+
+
+.botton{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 50px;
+}
+
+
 
 
 
