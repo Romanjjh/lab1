@@ -6,22 +6,4 @@ const result = document.querySelector('.result')
 
 
 
-Btn.addEventListener('click', function(){
-
-    const a = Number(Inputa.value);
-    const b = Number(Inputb.value);
-    const c = Number(Inputc.value);
-
-  
-
-
-   console.log(result)
-
-    
-
-
-
-
-  
-
-});
+Btn.addEventListener('click', heron)
