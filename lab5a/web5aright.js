@@ -4,7 +4,7 @@ const clickRight = () => {
     let prevIndex = null;
     for (let i = 0; i < sliderItemNodes.length; i += 1) {
      if (sliderItemNodes[i].classList.contains('selected')) {
-      prevIndex = i - 1;
+      prevIndex = i + 1;
       if (prevIndex == -1) {
        prevIndex = sliderItemNodes.length - 1;
       }
