@@ -51,15 +51,9 @@ function hei() {
     const a = Number(Inputa3.value);
     const b = Number(Inputb3.value);
    
-
-
-
-   
-
-
     const s3 = (a*b)/2;
-    console.log(s3);
 
+    console.log(s3);
 
     const answerua3 = document.querySelector('.result3').innerHTML = s3;
 
