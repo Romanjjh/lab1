@@ -123,7 +123,7 @@ function isAnagram(a, b) {
 
 
   function fibo(){
-    const a = []
+    let a = []
 
 
     const b = Number(Inputb7.value);
@@ -134,11 +134,14 @@ function isAnagram(a, b) {
 
   
 
-    for (a = true; a < 1000; [-1] + [-2]){
+    for (a = true; a < 1000; a[-1] + a[-2]){
         console.log(a);
 
 
     }
+
+
+    console.log(a);
 
     
 
@@ -152,7 +155,10 @@ function isAnagram(a, b) {
 
 
   }
-  
+
+
+
+
 
 
 
