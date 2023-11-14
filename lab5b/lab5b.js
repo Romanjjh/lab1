@@ -89,55 +89,70 @@ function palindrome() {
     }
 }
 
-//6
-/**function anagram(){
-    const a = String(Inputa6.value);
-    const b = String(Inputb6.value);
 
-    const isAnagram = isAnagramCheck(a, b);
-
-    const resultElement = document.querySelector('.result6');
-    if (isAnagram) {
-        resultElement.textContent = 'Анаграма!';
-    } else {
-        resultElement.textContent = 'Не анаграма.';
-    }
-
-}**/
 
 
 
 
 function isAnagram(a, b) {
-    // Removes spaces and convert into the lowercase letter
+    
   
     a = (Inputa6.value.replace(/\s/g, '').toLowerCase())
     b = (Inputb6.value.replace(/\s/g, '').toLowerCase())
-    // console.log(str1, str2)
-  
+    
     if (a.length !== b.length) {
       return false
     }
   
-    // Sort the characters in the given string
     a = a.split('').sort().join('')
     b = b.split('').sort().join('')
   
-    // Compare the sorted String
+
   
     if (a === b){
         const answerua6 = document.querySelector('.result6').innerHTML = 'your text is a anagrama'
     }else{
         const answerua6 = document.querySelector('.result6').innerHTML = 'your text is not a anagrama'
-
-
-
-
-
     }
 
   }
 
+
+
+
+
+
+  function fibo(){
+    const a = []
+
+
+    const b = Number(Inputb7.value);
+    const c = Number(Inputc7.value);
+
+
+    a = a.push(b, c);
+
+  
+
+    for (a = true; a < 1000; [-1] + [-2]){
+        console.log(a);
+
+
+    }
+
+    
+
+
+    //const answerua7 = document.querySelector('.result7').innerHTML = s7;
+
+   // console.log(s7)
+
+
+
+
+
+  }
+  
 
 
 

@@ -6,6 +6,7 @@ const Inputb = document.querySelector('.numberb')
 const Inputc = document.querySelector('.numberc')
 const Btn = document.querySelector('.btn')
 const result = document.querySelector('.result')
+
 Btn.addEventListener('click', heron)
 
 
@@ -72,6 +73,19 @@ const Btn6 = document.querySelector('.btn6')
 const result6 = document.querySelector('.result6')
 
 Btn6.addEventListener('click', isAnagram);
+
+
+
+
+
+//7
+const Inputb7 = document.querySelector('.numberb7')
+const Inputc7 = document.querySelector('.numberc7')
+const Btn7 = document.querySelector('.btn7')
+const result7 = document.querySelector('.result7')
+
+Btn5.addEventListener('click', fibo);
+
 
 
 
