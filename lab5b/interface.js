@@ -79,12 +79,12 @@ Btn6.addEventListener('click', isAnagram);
 
 
 //7
-const Inputb7 = document.querySelector('.numberb7')
-const Inputc7 = document.querySelector('.numberc7')
-const Btn7 = document.querySelector('.btn7')
-const result7 = document.querySelector('.result7')
+let Inputb7 = document.querySelector('.numberb7')
+let Inputc7 = document.querySelector('.numberc7')
+let Btn7 = document.querySelector('.btn7')
+let result7 = document.querySelector('.result7')
 
-Btn5.addEventListener('click', fibo);
+Btn7.addEventListener('click', fibo);
 
 
 

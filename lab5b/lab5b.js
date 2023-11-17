@@ -123,42 +123,22 @@ function isAnagram(a, b) {
 
 
   function fibo(){
-    let a = []
+    let a = [1,1]
 
-
-    const b = Number(Inputb7.value);
-    const c = Number(Inputc7.value);
-
+    let b = Number(Inputb7.value);
+    let c = Number(Inputc7.value);
 
     a = a.push(b, c);
 
-  
+    console.log(a)
 
-    for (a = true; a < 1000; a[-1] + a[-2]){
-        console.log(a);
-
-
-    }
-
-
-    console.log(a);
 
     
-
-
-    //const answerua7 = document.querySelector('.result7').innerHTML = s7;
-
-   // console.log(s7)
-
-
-
-
-
   }
 
 
 
-
+  
 
 
 
