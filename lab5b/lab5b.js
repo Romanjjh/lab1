@@ -145,21 +145,14 @@ function isAnagram(a, b) {
   function fibo2(){
     const num = Number(Inputa8.value);
     let arry = generateFibonacciArray(100);
-    // console.log(arry)
+    
     if (arry.includes(num)){
         const answerua8 = document.querySelector('.result8').innerHTML = 'yes'
     } else {
         const answerua8 = document.querySelector('.result8').innerHTML = 'no'
     }
 
-    // arry.map()
-    //   for (let i = 0; i < arry.length; i++){
-    //     if (num == arry[i]){
-    //         const answerua8 = document.querySelector('.result8').innerHTML = 'yes'
-    //     } else {
-    //         const answerua8 = document.querySelector('.result8').innerHTML = 'no'
-    //     }
-    //   }
+    
 
 
 
