@@ -142,14 +142,15 @@ function isAnagram(a, b) {
   
     return fibonacciArray;
   }
+  
   function fibo2(){
     const num = Number(Inputa8.value);
     let arry = generateFibonacciArray(100);
     
     if (arry.includes(num)){
-        const answerua8 = document.querySelector('.result8').innerHTML = 'yes'
+        const answerua8 = document.querySelector('.result8').innerHTML = 'true'
     } else {
-        const answerua8 = document.querySelector('.result8').innerHTML = 'no'
+        const answerua8 = document.querySelector('.result8').innerHTML = 'false'
     }
 
     
