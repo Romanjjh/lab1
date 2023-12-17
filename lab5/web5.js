@@ -1,9 +1,13 @@
 const letterImages = {
 
-    "A": "./A.png",
+    'A': "./A.png",
+
     'B': "./B.png",
+
     'C': "./C.png",
+
     'D': "./D.png",
+
     'E': "./E.png",
     'F': "./F.png",
     'G': "./G.png",
@@ -26,7 +30,6 @@ const letterImages = {
     'X': "./X.png",
     'Y': "./Y.png",
     'Z': "./Z.png",
-
     'a': "./small_a.png",
     'b': "./small_b.png",
     'c': "./small_c.png",
